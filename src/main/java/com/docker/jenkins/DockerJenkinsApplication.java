@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DockerJenkinsApplication {
 
 	public static void main(String[] args) {
+		System.out.println("docker-jenkins");
 		SpringApplication.run(DockerJenkinsApplication.class, args);
 	}
 
